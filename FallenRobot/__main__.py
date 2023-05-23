@@ -74,36 +74,23 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *ʜᴇʏᴏ 🦋 * {}, 💜
 ──────────────────
-*๏ ɪ ᴀᴍ * {} !
-──────────────────
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ʟᴀɢ ғʀᴇᴇ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs.
-──────────────────
-*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏғ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴs ᴄᴏᴍᴍᴀɴᴅs.*
-"""
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="🫂 ᴛᴀᴋᴇ ᴍᴇ ʏᴏᴜ ᴡɪᴛʜ 🫂",
-            url=f"https://t.me/XDTELEGRAMBOT?startgroup=true",
-        ),
+        InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ᴍᴇʜ ", callback_data="fallen_"),
+        InlineKeyboardButton(text=" ᴍᴜsɪᴄ ʙσᴛ ", url=f"https://t.me/agoramusic_bot"),
     ],
     [
-        InlineKeyboardButton(
-            text="🦋 ᴄʟɪᴄᴋ ᴏɴʟʏ ғᴏʀ ᴋᴀʀɴᴀᴛᴀᴋᴀ ɢʀᴏᴜᴘs 🦋",
-            url=f"https://t.me/KANNADASUPER_BOT?startgroup=true",
-              ),
+        InlineKeyboardButton(text=" sᴛꝛɪɴɢ ʙσᴛ ", url=f"https://t.me/agoraString_bot"),
+        InlineKeyboardButton(text=" ᴧᴅᴅᴇꝛ ʙσᴛ ", url=f"https://t.me/fcrxta_bot"),
     ],
     [
-        InlineKeyboardButton(text="🌪 ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs 🌪", callback_data="help_back"),
+        InlineKeyboardButton(text=" ғᴇᴅ ʟɪɴᴋ ", url=f"https://t.me/TeamAgora/36"),
+        InlineKeyboardButton(text=" ᴘꝛσᴍσᴛɪσɴ ʙσᴛ ", url=f"https://t.me/xdtelegrambot"),
     ],
     [
-        InlineKeyboardButton(text="🫦 ᴀʙᴏᴜᴛ ᴍᴇʜ 👀", callback_data="fallen_"),
-        InlineKeyboardButton(text="🏘 ᴍʏ ʜᴏᴍᴇ 🏘", url=f"https://t.me/AGORAWORLD"),
-    ],
-    [
-        InlineKeyboardButton(text="💋 ᴍʏ ʜᴜʙʙʏ 💋", url=f"https://t.me/MR_AGORA"),
-        InlineKeyboardButton(text="👩‍💻 ᴍʏ ᴏғғɪᴄᴇ 👩‍💻", url=f"https://t.me/TEAMAGORA"),
+        InlineKeyboardButton(text=" ᴍʏ ʜᴜʙʙʏ ", url=f"https://t.me/MR_AGORA"),
+        InlineKeyboardButton(text=" ᴍʏ ʟσᴠᴇꝛ ", url=f"https://t.me/oye_baby_ji_suniye"),
     ],
 ]
 
