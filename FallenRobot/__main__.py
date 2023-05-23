@@ -98,14 +98,6 @@ buttons = [
         InlineKeyboardButton(text="🌪 ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs 🌪", callback_data="help_back"),
     ],
     [
-            InlineKeyboardButton(
-                text="ʜᴇʟᴩ",
-                callback_data="settings_back_helper",
-            ),
-            InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
-            ),
-    [
         InlineKeyboardButton(text="🫦 ᴀʙᴏᴜᴛ ᴍᴇʜ 👀", callback_data="fallen_"),
         InlineKeyboardButton(text="🏘 ᴍʏ ʜᴏᴍᴇ 🏘", url=f"https://t.me/AGORAWORLD"),
     ],
